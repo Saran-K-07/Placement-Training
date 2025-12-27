@@ -6,8 +6,9 @@
     "configurations": [
         {
             "type": "jdk",
+            "name": "Current File",
             "request": "launch",
-            "name": "Launch Java App"
+            "mainClass": "${file}"
         }
     ]
 }
